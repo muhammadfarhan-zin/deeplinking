@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.purpleairapp",
+      "sha256_cert_fingerprints": [
+        "FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C",
+        "A5:DD:F1:5F:CC:EA:C3:4D:0B:BF:E7:D1:B1:9C:CF:DE:FE:41:E5:0E:15:96:7D:E0:A3:25:67:BC:B1:97:14:20"
+      ]
+    }
+  }
+]
