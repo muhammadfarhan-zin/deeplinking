@@ -13,6 +13,7 @@ function App() {
       window.ReactNativeWebView.postMessage(count);
     }
     console.log('count: ', count);
+    alert('count: ' + count);
   };
 
   return (
