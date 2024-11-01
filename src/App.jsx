@@ -11,10 +11,10 @@ function App() {
     setCount(count);
 
     if (window.ReactNativeWebView) {
-      console.log('window.ReactNativeWebView: found');
+      alert('window.ReactNativeWebView: found');
       window.ReactNativeWebView.postMessage(count);
     }else{
-      console.log('window.ReactNativeWebView: not found');
+      alert('window.ReactNativeWebView: not found');
     }
     console.log('count: ', count);
   };
