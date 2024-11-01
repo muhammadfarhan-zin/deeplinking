@@ -9,12 +9,19 @@ function App() {
 
   const updateCount = (count) => {
     setCount(count);
+
     if (window.ReactNativeWebView) {
+      console.log('window.ReactNativeWebView: found');
       window.ReactNativeWebView.postMessage(count);
+    }else{
+      console.log('window.ReactNativeWebView: not found');
     }
     console.log('count: ', count);
-    alert('count: ' + count);
   };
+
+  const alertMe = () => {
+    alert('Hello World');
+  }
 
   return (
     <>
@@ -30,6 +37,10 @@ function App() {
       <div className="card">
         <button onClick={() => updateCount(count + 1)}>
           count is {count}
+        </button>
+
+        <button onClick={alertMe}>
+          Alert Me
         </button>
       </div>
     </>
