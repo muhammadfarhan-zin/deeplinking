@@ -3,7 +3,7 @@
         "apps": [],
         "details": [
             {
-                "appID": "org.reactjs.native.example.purpleairapp",
+                "appID": "com.purpleair.apple",
                 "paths": [ "*" ]
             }
         ]
