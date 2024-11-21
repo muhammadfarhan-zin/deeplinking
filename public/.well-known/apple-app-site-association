@@ -1,10 +1,9 @@
 {
     "applinks": {
-        "apps": [],
         "details": [
             {
-                "appID": "com.purpleair.apple",
-                "paths": [ "*" ]
+                "appID": "SK38A6DMK5.com.purpleair.apple",
+                "paths": [ "/register" ]
             }
         ]
     }
